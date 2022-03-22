@@ -9,7 +9,6 @@ for i in range(kolvo):
     else:
         list[i] = 990
 
-
 cymma = sum(list)
 if kolvo > 3:
     procent = cymma * 0.1
