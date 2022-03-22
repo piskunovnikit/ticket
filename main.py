@@ -8,11 +8,10 @@ for i in range(kolvo):
         list[i] = 1390
     else:
         list[i] = 990
-print(list)
+
 
 cymma = sum(list)
-print(cymma)
 if kolvo > 3:
     procent = cymma * 0.1
     cymma = cymma - procent
-print("сумма к оплате", cymma)
+print("сумма к оплате", cymma )
